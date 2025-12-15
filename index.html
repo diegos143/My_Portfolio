@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabryl Z. Diegos - BSIT Portfolio with Cebu-Bohol Tour Insights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <i class="fas fa-user-graduate"></i> 
+                <div class="logo-text">
+                    <span class="logo-name">Gabryl</span>
+                    <span class="logo-title">BSIT Portfolio</span>
+                </div>
+            </a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="#tour-insights" class="nav-link"><i class="fas fa-eye"></i> Tour Insights</a>
+                <a href="#skills-developed" class="nav-link"><i class="fas fa-code"></i> Skills</a>
+                <a href="#company-journal" class="nav-link"><i class="fas fa-building"></i> Journal</a>
+                <a href="#documented" class="nav-link"><i class="fas fa-camera"></i> Documented Photos</a>
+                <a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Gallery</a>
+                <a href="#certificates" class="nav-link"><i class="fas fa-certificate"></i> Certificates</a>
+                <!-- Dark/Light Mode Toggle -->
+                <div class="theme-toggle-container">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+            </div>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-gradient">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="pfp.png" alt="Gabryl Z. Diegos" class="clickable-image">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="image-decoration">
+                        <div class="decoration-dot dot-1"></div>
+                        <div class="decoration-dot dot-2"></div>
+                        <div class="decoration-dot dot-3"></div>
+                        <div class="decoration-line"></div>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <div class="hero-titles">
+                        <div class="floating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>BSIT Student</span>
+                        </div>
+                        <h5 class="greeting">Hello, I'm</h5>
+                        <h1 class="hero-name">Gabryl Z. Diegos</h1>
+                        <div class="title-wrapper">
+                            <div class="title-card">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <p class="subtitle">BS Information Technology Student</p>
+                                    <p class="school">Holy Cross of Davao College</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-intro">
+                        <div class="intro-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>An aspiring IT professional passionate about transforming theoretical knowledge into practical solutions. This portfolio showcases my academic journey, skills development, and insights gained from industry exposure.</p>
+                        <div class="intro-icon right">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-badges">
+                        <span class="badge bsit-badge">
+                            <i class="fas fa-laptop-code"></i> BSIT 3rd Year
+                        </span>
+                        <span class="badge tour-badge">
+                            <i class="fas fa-plane"></i> Cebu-Bohol Tour 2025
+                        </span>
+                        <span class="badge portfolio-badge">
+                            <i class="fas fa-rocket"></i> Interactive Portfolio
+                        </span>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">gabryl.diegos@hcdc.edu.ph</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">09292415499</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Davao City, Philippines</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#tour-insights" class="btn btn-primary">
+                            <i class="fas fa-eye"></i> View Tour Insights
+                            <span class="btn-glow"></span>
+                        </a>
+                        <a href="#gallery" class="btn btn-secondary">
+                            <i class="fas fa-images"></i> Photo Gallery
+                            <span class="btn-glow"></span>
+                        </a>
+                        <a href="#documented" class="btn btn-outline">
+                            <i class="fas fa-camera"></i> Documented Photos
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Insights Section -->
+    <section class="section insights-section" id="tour-insights">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-decoration">
+                    <div class="decoration-circle"></div>
+                    <div class="decoration-square"></div>
+                </div>
+                <h5 class="section-pre-title">Educational Experience</h5>
+                <h2 class="section-title">Tour Insights & Learnings</h2>
+                <div class="section-divider">
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                </div>
+                <p class="section-subtitle">Key takeaways from the <span class="highlight-tour">Cebu-Bohol Educational Tour 2025</span></p>
+            </div>
+            
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-industry"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="insight-content">
+                        <h3>Industry Exposure</h3>
+                        <div class="insight-details">
+                            <div class="observation">
+                                <div class="observation-header">
+                                    <i class="fas fa-binoculars"></i>
+                                    <h4>What I Observed:</h4>
+                                </div>
+                                <p>Real-world application of agile methodologies and professional software development workflows that differ from classroom simulations.</p>
+                            </div>
+                            <div class="impact">
+                                <div class="impact-header">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Impact on My Studies:</h4>
+                                </div>
+                                <p>Better understanding of why we learn specific SDLC models and how they're adapted in actual development environments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-corner">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                </div>
+                
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-users"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="insight-content">
+                        <h3>Professional Environment</h3>
+                        <div class="insight-details">
+                            <div class="observation">
+                                <div class="observation-header">
+                                    <i class="fas fa-binoculars"></i>
+                                    <h4>What I Observed:</h4>
+                                </div>
+                                <p>Communication and collaboration dynamics in tech companies, emphasizing teamwork and client interaction.</p>
+                            </div>
+                            <div class="impact">
+                                <div class="impact-header">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Impact on My Studies:</h4>
+                                </div>
+                                <p>Recognized the importance of soft skills alongside technical abilities for successful IT careers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-corner">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                </div>
+                
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-lightbulb"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="insight-content">
+                        <h3>Technology Trends</h3>
+                        <div class="insight-details">
+                            <div class="observation">
+                                <div class="observation-header">
+                                    <i class="fas fa-binoculars"></i>
+                                    <h4>What I Observed:</h4>
+                                </div>
+                                <p>Emerging technologies and tools being used in Philippine IT companies, from enterprise solutions to educational tech.</p>
+                            </div>
+                            <div class="impact">
+                                <div class="impact-header">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Impact on My Studies:</h4>
+                                </div>
+                                <p>Motivated to explore new technologies and understand how classroom fundamentals apply to modern tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-corner">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                </div>
+                
+                <div class="insight-card">
+                    <div class="insight-icon">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="insight-content">
+                        <h3>Career Perspectives</h3>
+                        <div class="insight-details">
+                            <div class="observation">
+                                <div class="observation-header">
+                                    <i class="fas fa-binoculars"></i>
+                                    <h4>What I Observed:</h4>
+                                </div>
+                                <p>Diverse career paths in IT beyond traditional programming roles, including consulting, project management, and technical support.</p>
+                            </div>
+                            <div class="impact">
+                                <div class="impact-header">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Impact on My Studies:</h4>
+                                </div>
+                                <p>Helped shape my career goals and identify areas for specialization within the BSIT program.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-corner">
+                        <i class="fas fa-target"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="personal-reflection">
+                <div class="reflection-header">
+                    <div class="reflection-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div>
+                        <h3>Personal Reflection</h3>
+                        <p class="reflection-subtitle">Transforming Perspective Through Experience</p>
+                    </div>
+                </div>
+                <div class="reflection-content">
+                    <div class="reflection-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The educational tour transformed my perspective on IT careers. Seeing professionals apply concepts I've learned in classes like Software Engineering and Database Management made my studies more meaningful.</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="reflection-highlight">
+                        <i class="fas fa-check-circle"></i>
+                        <p>The tour reinforced that technical skills must be complemented by problem-solving abilities and effective communication.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Developed Section -->
+    <section class="section skills-section" id="skills-developed">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-decoration">
+                    <div class="decoration-triangle"></div>
+                    <div class="decoration-circle"></div>
+                </div>
+                <h5 class="section-pre-title">Professional Growth</h5>
+                <h2 class="section-title">Skills Developed & Enhanced</h2>
+                <div class="section-divider">
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                </div>
+                <p class="section-subtitle">Technical and professional skills gained from academic and tour experiences</p>
+            </div>
+            
+            <div class="skills-categories">
+                <div class="category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-laptop-code"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h3>Technical Skills</h3>
+                        <div class="category-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Web Development</h4>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <p>HTML, CSS, JavaScript, React basics</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 65%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Database Management</h4>
+                                    <span class="skill-percentage">60%</span>
+                                </div>
+                                <p>MySQL, ERD Design, Normalization</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 60%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Programming</h4>
+                                    <span class="skill-percentage">55%</span>
+                                </div>
+                                <p>Java, Python fundamentals, Algorithms</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 55%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>System Analysis</h4>
+                                    <span class="skill-percentage">50%</span>
+                                </div>
+                                <p>Requirement gathering, UML diagrams</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 50%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-user-tie"></i>
+                            <div class="icon-glow"></div>
+                        </div>
+                        <h3>Professional Skills</h3>
+                        <div class="category-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Communication</h4>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <p>Enhanced through tour interactions and presentations</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 70%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Team Collaboration</h4>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <p>Developed through group projects and tour activities</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 65%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Problem Solving</h4>
+                                    <span class="skill-percentage">60%</span>
+                                </div>
+                                <p>Strengthened by analyzing real-world IT challenges</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 60%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-title">
+                                    <h4>Time Management</h4>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <p>Improved through balancing academics and tour participation</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-track"></div>
+                                <div class="skill-level" style="width: 75%">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tour-impact">
+                <div class="impact-header">
+                    <div class="impact-icon">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div>
+                        <h3>Tour Impact on Skill Development</h3>
+                        <p class="impact-subtitle">Bridging Theory and Practice</p>
+                    </div>
+                </div>
+                <div class="impact-content">
+                    <p>The educational tour significantly enhanced my understanding of how theoretical skills apply in industry settings:</p>
+                    <div class="impact-points">
+                        <div class="impact-point">
+                            <div class="point-icon">
+                                <i class="fas fa-database"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <div class="point-content">
+                                <h4>Database concepts</h4>
+                                <p>became tangible when I saw enterprise database systems in action</p>
+                            </div>
+                        </div>
+                        <div class="impact-point">
+                            <div class="point-icon">
+                                <i class="fas fa-cogs"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <div class="point-content">
+                                <h4>Software engineering principles</h4>
+                                <p>made more sense after observing agile development teams</p>
+                            </div>
+                        </div>
+                        <div class="impact-point">
+                            <div class="point-icon">
+                                <i class="fas fa-comments"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <div class="point-content">
+                                <h4>Communication skills</h4>
+                                <p>improved through interactions with IT professionals</p>
+                            </div>
+                        </div>
+                        <div class="impact-point">
+                            <div class="point-icon">
+                                <i class="fas fa-briefcase"></i>
+                                <div class="icon-glow"></div>
+                            </div>
+                            <div class="point-content">
+                                <h4>Professional awareness</h4>
+                                <p>grew by experiencing workplace environments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Journal Section -->
+    <section class="section journal-section" id="company-journal">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-decoration">
+                    <div class="decoration-square"></div>
+                    <div class="decoration-triangle"></div>
+                </div>
+                <h5 class="section-pre-title">Company Visits</h5>
+                <h2 class="section-title">Company Visit Journal</h2>
+                <div class="section-divider">
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                </div>
+                <p class="section-subtitle">Detailed observations and learnings from all company visits during the <span class="highlight-tour">Cebu-Bohol Tour</span></p>
+            </div>
+            
+            <div class="journal-container">
+                <!-- Company 1 - World Tech -->
+                <div class="journal-card">
+                    <div class="company-header">
+                        <div class="company-logo">
+                            <i class="fas fa-globe"></i>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <div class="company-info">
+                            <h3>World Tech Information Solutions, Inc.</h3>
+                            <div class="company-meta">
+                                <span class="tag enterprise">IT Solutions</span>
+                                <span class="tag day">Day 1</span>
+                                <span class="tag location"><i class="fas fa-map-marker-alt"></i> Cebu</span>
+                            </div>
+                        </div>
+                        <div class="company-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="journal-content">
+                        <div class="observation">
+                            <h4><i class="fas fa-binoculars"></i> Observations</h4>
+                            <ul>
+                                <li>Comprehensive IT solutions provider with diverse service offerings</li>
+                                <li>Enterprise-level system integration and implementation</li>
+                                <li>Professional corporate environment and client management</li>
+                                <li>Focus on business technology transformation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="learning">
+                            <h4><i class="fas fa-graduation-cap"></i> Key Learnings</h4>
+                            <ul>
+                                <li>Understanding end-to-end IT service delivery</li>
+                                <li>Importance of business-IT alignment</li>
+                                <li>Project management in enterprise environments</li>
+                                <li>Client relationship management in IT services</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="personal-note">
+                            <div class="note-header">
+                                <h4><i class="fas fa-sticky-note"></i> Personal Note</h4>
+                                <span class="note-date">November 19, 2025</span>
+                            </div>
+                            <p>This visit provided insight into how IT companies serve as strategic partners to businesses. Seeing the scale of enterprise solutions helped me understand the importance of reliability and scalability in professional IT services.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Company 2 - Rivan IT -->
+                <div class="journal-card">
+                    <div class="company-header">
+                        <div class="company-logo">
+                            <i class="fas fa-code"></i>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <div class="company-info">
+                            <h3>Rivan IT Cebu</h3>
+                            <div class="company-meta">
+                                <span class="tag software">Software Development</span>
+                                <span class="tag day">Day 2</span>
+                                <span class="tag location"><i class="fas fa-map-marker-alt"></i> Cebu</span>
+                            </div>
+                        </div>
+                        <div class="company-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="journal-content">
+                        <div class="observation">
+                            <h4><i class="fas fa-binoculars"></i> Observations</h4>
+                            <ul>
+                                <li>Modern agile development environment</li>
+                                <li>Collaborative open workspace layout</li>
+                                <li>Daily stand-up meetings and sprint planning</li>
+                                <li>Use of various development tools and version control</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="learning">
+                            <h4><i class="fas fa-graduation-cap"></i> Key Learnings</h4>
+                            <ul>
+                                <li>Practical implementation of agile methodologies</li>
+                                <li>Importance of team collaboration in software development</li>
+                                <li>Continuous integration and deployment practices</li>
+                                <li>Code review and quality assurance processes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="personal-note">
+                            <div class="note-header">
+                                <h4><i class="fas fa-sticky-note"></i> Personal Note</h4>
+                                <span class="note-date">November 20, 2025</span>
+                            </div>
+                            <p>This visit made my Software Engineering class more relevant. Seeing real teams use Scrum and agile practices showed me why we study these methodologies. The collaborative atmosphere was inspiring and gave me a clear picture of what to expect in my future career.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Company 3 - CodeChum -->
+                <div class="journal-card">
+                    <div class="company-header">
+                        <div class="company-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <div class="company-info">
+                            <h3>CodeChum</h3>
+                            <div class="company-meta">
+                                <span class="tag edtech">Educational Technology</span>
+                                <span class="tag day">Day 2</span>
+                                <span class="tag location"><i class="fas fa-map-marker-alt"></i> Cebu</span>
+                            </div>
+                        </div>
+                        <div class="company-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="journal-content">
+                        <div class="observation">
+                            <h4><i class="fas fa-binoculars"></i> Observations</h4>
+                            <ul>
+                                <li>Interactive programming learning platform</li>
+                                <li>Gamification of coding education</li>
+                                <li>Real-time feedback and assessment system</li>
+                                <li>Focus on making programming accessible to beginners</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="learning">
+                            <h4><i class="fas fa-graduation-cap"></i> Key Learnings</h4>
+                            <ul>
+                                <li>How technology can enhance learning experiences</li>
+                                <li>Importance of user-friendly educational tools</li>
+                                <li>Gamification principles in educational software</li>
+                                <li>Real-time system development challenges</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="personal-note">
+                            <div class="note-header">
+                                <h4><i class="fas fa-sticky-note"></i> Personal Note</h4>
+                                <span class="note-date">November 20, 2025</span>
+                            </div>
+                            <p>As someone who struggled with programming initially, I appreciated seeing how educational technology can make learning more engaging. This visit sparked ideas for my own projects and showed me how technology can be used to solve educational challenges.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Company 4 - Mata Technologies -->
+                <div class="journal-card">
+                    <div class="company-header">
+                        <div class="company-logo">
+                            <i class="fas fa-cogs"></i>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <div class="company-info">
+                            <h3>Mata Technologies, Inc.</h3>
+                            <div class="company-meta">
+                                <span class="tag software">Technology Solutions</span>
+                                <span class="tag day">Day 3</span>
+                                <span class="tag location"><i class="fas fa-map-marker-alt"></i> Cebu</span>
+                            </div>
+                        </div>
+                        <div class="company-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="journal-content">
+                        <div class="observation">
+                            <h4><i class="fas fa-binoculars"></i> Observations</h4>
+                            <ul>
+                                <li>Diverse technology portfolio and product offerings</li>
+                                <li>Innovative approach to solving business problems</li>
+                                <li>Research and development focus</li>
+                                <li>Cross-functional team collaboration</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="learning">
+                            <h4><i class="fas fa-graduation-cap"></i> Key Learnings</h4>
+                            <ul>
+                                <li>Technology innovation processes</li>
+                                <li>Product development lifecycle</li>
+                                <li>Market analysis and customer needs assessment</li>
+                                <li>Balancing innovation with practical implementation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="personal-note">
+                            <div class="note-header">
+                                <h4><i class="fas fa-sticky-note"></i> Personal Note</h4>
+                                <span class="note-date">November 21, 2025</span>
+                            </div>
+                            <p>Mata Technologies showed me the importance of innovation in the tech industry. The visit highlighted how companies need to continuously evolve and adapt to stay competitive. This reinforced my understanding of why we need to keep learning new technologies throughout our careers.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Company 5 - T.A.R.S.I.E.R. 117 -->
+                <div class="journal-card">
+                    <div class="company-header">
+                        <div class="company-logo">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <div class="company-info">
+                            <h3>T.A.R.S.I.E.R. 117</h3>
+                            <div class="company-meta">
+                                <span class="tag emergency">Emergency Response</span>
+                                <span class="tag day">Day 4</span>
+                                <span class="tag location"><i class="fas fa-map-marker-alt"></i> Bohol</span>
+                            </div>
+                        </div>
+                        <div class="company-decoration">
+                            <div class="decoration-line"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="journal-content">
+                        <div class="observation">
+                            <h4><i class="fas fa-binoculars"></i> Observations</h4>
+                            <ul>
+                                <li>Integrated emergency response system technology</li>
+                                <li>Telephone and radio communication infrastructure</li>
+                                <li>Real-time emergency monitoring and coordination</li>
+                                <li>Public safety technology implementation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="learning">
+                            <h4><i class="fas fa-graduation-cap"></i> Key Learnings</h4>
+                            <ul>
+                                <li>Technology applications in public safety</li>
+                                <li>Reliability and redundancy in critical systems</li>
+                                <li>Communication network design for emergencies</li>
+                                <li>Technology's role in community service</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="personal-note">
+                            <div class="note-header">
+                                <h4><i class="fas fa-sticky-note"></i> Personal Note</h4>
+                                <span class="note-date">November 22, 2025</span>
+                            </div>
+                            <p>This visit was particularly meaningful as it showed how IT skills can directly impact community safety and well-being. Seeing technology used for emergency response gave me a new perspective on how IT professionals can contribute to society beyond commercial applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documented Photos Section -->
+    <section class="section documented-section" id="documented">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-decoration">
+                    <div class="decoration-circle"></div>
+                    <div class="decoration-square"></div>
+                </div>
+                <h5 class="section-pre-title">Tour Documentation</h5>
+                <h2 class="section-title">Documented Photos</h2>
+                <div class="section-divider">
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                </div>
+                <p class="section-subtitle">A visual journal documenting observations and learning experiences from the <span class="highlight-tour">Cebu-Bohol Tour 2025</span></p>
+            </div>
+            
+            <div class="documented-container">
+                <div class="documented-grid">
+                    <!-- Documented Photo 1 - World Tech -->
+                    <div class="documented-card">
+                        <div class="documented-image">
+                            <img src="world.jpg" alt="World Tech Visit" class="clickable-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="image-corner">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="documented-info">
+                            <h4>World Tech Visit</h4>
+                            <p>Learning about enterprise IT solutions and services</p>
+                            <div class="documented-meta">
+                                <div class="documented-tag">Day 1</div>
+                                <span class="documented-date">Nov 19, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Documented Photo 2 - Rivan IT -->
+                    <div class="documented-card">
+                        <div class="documented-image">
+                            <img src="rivan.jpg" alt="Rivan IT Workshop" class="clickable-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="image-corner">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="documented-info">
+                            <h4>Rivan IT Workshop</h4>
+                            <p>Hands-on session learning about agile development practices</p>
+                            <div class="documented-meta">
+                                <div class="documented-tag">Day 2</div>
+                                <span class="documented-date">Nov 20, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Documented Photo 3 - CodeChum -->
+                    <div class="documented-card">
+                        <div class="documented-image">
+                            <img src="codechum.jpg" alt="CodeChum Session" class="clickable-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="image-corner">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="documented-info">
+                            <h4>CodeChum Session</h4>
+                            <p>Interactive programming learning experience</p>
+                            <div class="documented-meta">
+                                <div class="documented-tag">Day 2</div>
+                                <span class="documented-date">Nov 20, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Documented Photo 4 - Mata Technologies -->
+                    <div class="documented-card">
+                        <div class="documented-image">
+                            <img src="mata.jpg" alt="Mata Technologies" class="clickable-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="image-corner">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="documented-info">
+                            <h4>Mata Technologies, Inc.</h4>
+                            <p>Interactive programming learning experience</p>
+                            <div class="documented-meta">
+                                <div class="documented-tag">Day 3</div>
+                                <span class="documented-date">Nov 21, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Documented Photo 5 - T.A.R.S.I.E.R. 117 -->
+                    <div class="documented-card">
+                        <div class="documented-image">
+                            <img src="tarsier.jpg" alt="T.A.R.S.I.E.R. 117" class="clickable-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="image-corner">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="documented-info">
+                            <h4>T.A.R.S.I.E.R. 117</h4>
+                            <p>Understanding emergency response technology</p>
+                            <div class="documented-meta">
+                                <div class="documented-tag">Day 4</div>
+                                <span class="documented-date">Nov 22, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Documented Photo 6 - Impression Sheet -->
+                    <div class="documented-card">
+                        <div class="documented-image">
+                            <img src="impression.jpg" alt="Impression Sheet" class="clickable-image">
+                            <div class="image-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="image-corner">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                        </div>
+                        <div class="documented-info">
+                            <h4>Impression Sheet</h4>
+                            <p>Understanding emergency response technology</p>
+                            <div class="documented-meta">
+                                <div class="documented-tag">Evaluation</div>
+                                <span class="documented-date">Nov 22, 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="documented-summary">
+                    <div class="summary-icon">
+                        <i class="fas fa-camera"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <div class="summary-content">
+                        <h4>Photo Documentation</h4>
+                        <p>These documented photos serve as visual reflections of my observations and learnings from the companies we visited during the tour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-decoration">
+                    <div class="decoration-triangle"></div>
+                    <div class="decoration-circle"></div>
+                </div>
+                <h5 class="section-pre-title">Memorable Moments</h5>
+                <h2 class="section-title">Tour Photo Gallery</h2>
+                <div class="section-divider">
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                </div>
+                <p class="section-subtitle">Memorable moments and learning experiences captured during the <span class="highlight-tour">Cebu-Bohol Educational Tour</span></p>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-grid">
+                    <!-- Photo 1 - Departure -->
+                    <div class="photo-card">
+                        <div class="photo-image">
+                            <img src="dep.jpeg" alt="Departure" class="clickable-image">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="photo-badge">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                        </div>
+                        <div class="photo-caption">
+                            <h4>Departure Preparation</h4>
+                            <p>Excited start of the educational journey</p>
+                            <span class="photo-location">Davao → Cebu</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 2 - World Tech -->
+                    <div class="photo-card">
+                        <div class="photo-image">
+                            <img src="tech.jpg" alt="Company Visit" class="clickable-image">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="photo-badge">
+                                <i class="fas fa-building"></i>
+                            </div>
+                        </div>
+                        <div class="photo-caption">
+                            <h4>World Tech Solutions</h4>
+                            <p>Enterprise IT solutions and services</p>
+                            <span class="photo-location">Cebu City</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 3 - Rivan IT -->
+                    <div class="photo-card">
+                        <div class="photo-image">
+                            <img src="riv.jpg" alt="Software Development" class="clickable-image">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="photo-badge">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="photo-caption">
+                            <h4>Rivan IT Cebu</h4>
+                            <p>Agile development environment</p>
+                            <span class="photo-location">Cebu IT Park</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 4 - CodeChum -->
+                    <div class="photo-card">
+                        <div class="photo-image">
+                            <img src="code.jpg" alt="CodeChum" class="clickable-image">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="photo-badge">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                        </div>
+                        <div class="photo-caption">
+                            <h4>CodeChum Interactive</h4>
+                            <p>Educational technology platform</p>
+                            <span class="photo-location">Cebu Business Park</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 5 - Mata Technologies -->
+                    <div class="photo-card">
+                        <div class="photo-image">
+                            <img src="eye.jpg" alt="Mata Technologies" class="clickable-image">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="photo-badge">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                        </div>
+                        <div class="photo-caption">
+                            <h4>Mata Technologies</h4>
+                            <p>Innovative technology solutions</p>
+                            <span class="photo-location">Cebu</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Photo 6 - T.A.R.S.I.E.R. 117 -->
+                    <div class="photo-card">
+                        <div class="photo-image">
+                            <img src="tar.jpg" alt="Group Discussion" class="clickable-image">
+                            <div class="photo-overlay">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="photo-badge">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                        </div>
+                        <div class="photo-caption">
+                            <h4>T.A.R.S.I.E.R. 117</h4>
+                            <p>Emergency response technology</p>
+                            <span class="photo-location">Bohol</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-description">
+                    <div class="description-icon">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <p>These photos document our journey from departure, through our first company visit, and all the way to the last company we visited during the Cebu–Bohol tour. Each image captures memorable moments and experiences, making these photos truly unforgettable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="section certificates-section" id="certificates">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-decoration">
+                    <div class="decoration-square"></div>
+                    <div class="decoration-triangle"></div>
+                </div>
+                <h5 class="section-pre-title">Achievements & Recognition</h5>
+                <h2 class="section-title">Certificates I Received</h2>
+                <div class="section-divider">
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                    <div class="divider-dot"></div>
+                </div>
+                <p class="section-subtitle">These are the certificates I received throughout my journey and during the <span class="highlight-tour">Cebu-Bohol Educational Tour 2025</span></p>
+            </div>
+            
+            <div class="certificates-grid">
+                <!-- Certificate 1 - Tour Participation -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="tour.jpg" alt="Certificate of Participation" class="clickable-image">
+                        <div class="certificate-ribbon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="certificate-glow"></div>
+                    </div>
+                    <div class="certificate-details">
+                        <h3>Certificate of Participation</h3>
+                        <div class="certificate-info">
+                            <p><i class="fas fa-award"></i> <strong>Award:</strong> Successful completion of Cebu-Bohol Educational Tour 2025</p>
+                            <p><i class="fas fa-university"></i> <strong>Issued by:</strong> Holy Cross of Davao College - IT Department</p>
+                            <p><i class="fas fa-calendar"></i> <strong>Date:</strong> November 22, 2025</p>
+                            <p><i class="fas fa-info-circle"></i> <strong>Details:</strong> Recognizes active participation in all company visits and educational workshops</p>
+                        </div>
+                        <div class="certificate-tags">
+                            <span class="cert-tag tour">Cebu-Bohol Tour</span>
+                            <span class="cert-tag academic">Academic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certificate 2 - Workshop Completion -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="cert.png" alt="Workshop Completion Certificate" class="clickable-image">
+                        <div class="certificate-ribbon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certificate-glow"></div>
+                    </div>
+                    <div class="certificate-details">
+                        <h3>CodeChum Completion Certificate</h3>
+                        <div class="certificate-info">
+                            <p><i class="fas fa-award"></i> <strong>Award:</strong> Completion of Information Management in CC105 CodeChum</p>
+                            <p><i class="fas fa-university"></i> <strong>Issued by:</strong> CodeChum</p>
+                            <p><i class="fas fa-calendar"></i> <strong>Date:</strong> May 17, 2025</p>
+                            <p><i class="fas fa-info-circle"></i> <strong>Details:</strong> Successful completion of information management</p>
+                        </div>
+                        <div class="certificate-tags">
+                            <span class="cert-tag workshop">Platform</span>
+                            <span class="cert-tag technical">Academic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certificates Note -->
+            <div class="certificates-note">
+                <div class="note-icon">
+                    <i class="fas fa-trophy"></i>
+                    <div class="icon-glow"></div>
+                </div>
+                <div class="note-content">
+                    <h4>Certificates & Achievements</h4>
+                    <p>These certificates represent significant milestones in my academic journey and professional development. Each one symbolizes dedication, learning, and growth in the field of Information Technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-user-graduate"></i>
+                        <div>
+                            <h3>Gabryl's Portfolio</h3>
+                            <p class="footer-subtitle">BSIT with Tour Insights</p>
+                        </div>
+                    </div>
+                    <p>This portfolio showcases my journey as a BSIT student, combining academic achievements with practical insights gained from industry exposure through the Cebu-Bohol Educational Tour 2025.</p>
+                    <div class="footer-badges">
+                        <span class="footer-badge bsit">BSIT 3rd Year</span>
+                        <span class="footer-badge tour">Cebu-Bohol Tour 2025</span>
+                    </div>
+                </div>
+                
+                <div class="footer-academic">
+                    <h4>Academic Information</h4>
+                    <div class="academic-info">
+                        <p><i class="fas fa-university"></i> Holy Cross of Davao College</p>
+                        <p><i class="fas fa-graduation-cap"></i> BS Information Technology</p>
+                        <p><i class="fas fa-user"></i> Gabryl Z. Diegos</p>
+                        <p><i class="fas fa-calendar"></i> 3rd Year Student</p>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Information</h4>
+                    <div class="contact-links">
+                        <a href="mailto:gabryl.diegos@hcdc.edu.ph">
+                            <i class="fas fa-envelope"></i> gabryl.diegos@hcdc.edu.ph
+                        </a>
+                        <a href="tel:09292415499">
+                            <i class="fas fa-phone"></i> 09292415499
+                        </a>
+                        <p><i class="fas fa-map-marker-alt"></i> Davao City, Philippines</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gabryl Z. Diegos. All rights reserved.</p>
+                <p class="footer-quote">"The only source of knowledge is experience." - Albert Einstein</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Fullscreen Image Modal -->
+    <div class="fullscreen-modal" id="fullscreenModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="modal-nav modal-prev" id="modalPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="modal-nav modal-next" id="modalNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <img src="" alt="Fullscreen view" id="modalImage">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner-circle"></div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
